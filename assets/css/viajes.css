@@ -1,0 +1,219 @@
+.travel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.travel-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.travel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.travel-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.travel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.travel-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    position: relative;
+}
+
+.travel-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.travel-type {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.travel-type.cultural {
+    background: rgba(255, 193, 7, 0.8);
+    color: #2c3e50;
+}
+
+.travel-type.romantico {
+    background: rgba(255, 20, 147, 0.8);
+    color: white;
+}
+
+.travel-type.urbano {
+    background: rgba(70, 130, 180, 0.8);
+    color: white;
+}
+
+.travel-type.playa {
+    background: rgba(34, 139, 34, 0.8);
+    color: white;
+}
+
+.travel-type.aventura {
+    background: rgba(255, 69, 0, 0.8);
+    color: white;
+}
+
+.travel-info {
+    padding: 20px 25px 15px;
+    background: #f8f9fa;
+}
+
+.travel-info p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2rem !important;
+    color: #2c3e50 !important;
+    font-weight: 600;
+}
+
+.dates {
+    color: #3498db !important;
+    font-weight: 500;
+}
+
+.travel-description {
+    padding: 0 25px;
+}
+
+.travel-description p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.travel-activities {
+    padding: 0 25px 25px;
+}
+
+.travel-activities h3 {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.travel-activities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.travel-activities li {
+    background: #f1f8ff;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.travel-footer {
+    padding: 20px 25px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.btn-reservar {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-reservar:hover {
+    background: linear-gradient(135deg, #2980b9, #21618c);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .travel-container {
+        padding: 15px;
+    }
+
+    .travel-container h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .travel-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .travel-header {
+        padding: 20px;
+    }
+
+    .travel-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .travel-info,
+    .travel-description,
+    .travel-activities,
+    .travel-footer {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .travel-card {
+        margin: 0 -10px;
+        border-radius: 10px;
+    }
+
+    .travel-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .travel-type {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+}

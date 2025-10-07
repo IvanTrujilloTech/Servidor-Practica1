@@ -1,0 +1,89 @@
+body {
+            font-family: 'Georgia', serif;
+            background: #f8f5f0;
+            margin: 0;
+            padding: 0;
+        }
+        .book-container {
+            width: 700px;
+            margin: 40px auto;
+            perspective: 1200px;
+        }
+        .book {
+            width: 700px;
+            height: 400px;
+            position: relative;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            background: #fff8e1;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .page {
+            width: 350px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            transition: transform 0.7s cubic-bezier(.4,2,.6,1);
+            background: #fff8e1;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+            padding: 32px 24px;
+            box-sizing: border-box;
+        }
+        .page.left {
+            left: 0;
+            border-right: 1px solid #e0cda9;
+            z-index: 2;
+        }
+        .page.right {
+            left: 350px;
+            border-left: 1px solid #e0cda9;
+            z-index: 1;
+        }
+        .hidden {
+            display: none;
+        }
+        .menu-title {
+            font-size: 2em;
+            margin-bottom: 16px;
+            color: #000000;
+        }
+        .dish {
+            margin-bottom: 12px;
+        }
+        .dish-name {
+            font-weight: bold;
+            color: #3f3f3f;
+        }
+        .dish-desc {
+            font-size: 0.95em;
+            color: #555;
+        }
+        .dish-price {
+            float: right;
+            color: #000000;
+        }
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #0479ff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            font-size: 1.5em;
+            cursor: pointer;
+            z-index: 10;
+            opacity: 0.85;
+        }
+        .nav-btn:active { opacity: 1; }
+        .nav-btn.prev { left: -60px; }
+        .nav-btn.next { right: -60px; }
+        @media (max-width: 800px) {
+            .book-container, .book { width: 98vw; }
+            .page, .page.left, .page.right { width: 49vw; left: 0; }
+            .page.right { left: 49vw; }
+            .nav-btn.prev { left: 4px; }
+            .nav-btn.next { right: 4px; }
+        }

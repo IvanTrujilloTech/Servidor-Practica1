@@ -1,0 +1,80 @@
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.tab-link {
+    padding: 8px 16px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.tab-link.active {
+    background: #fff;
+    border-bottom: 2px solid #0078d7;
+    color: #0078d7;
+}
+.tab-content {
+    display: none;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 4px;
+    background: #fff;
+}
+.tab-content.active {
+    display: block;
+}
+.welcome_text {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-name {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.music-chart {
+    border: 2px solid #3949ab;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin:20px 40%;
+    
+}
+
+main {
+    margin: 20px auto; /* Centra el contenedor horizontalmente con margen superior e inferior */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+main p {
+    margin: 8px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px dotted #eee; /* Línea de puntos para separar la información */
+}
+
+main p:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+main p:last-child {
+    border-bottom: none;
+}
+

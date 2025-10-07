@@ -1,0 +1,23 @@
+[
+  {
+        "movie_name": "Avatar",
+        "genre": "Ciencia Ficción"
+  },
+  {
+        "movie_name": "Inception",
+        "genre": "Thriller"
+  },
+  {
+        "movie_name": "The Godfather",
+        "genre": "Crimen"
+  },
+    {
+        "movie_name": "Goodfellas",
+        "genre": "Crimen"
+    },
+    {
+        "movie_name": "Pulp Fiction",
+        "genre": "Accion"
+    }
+
+]

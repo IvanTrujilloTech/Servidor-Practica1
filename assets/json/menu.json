@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Entrantes Tradicionales",
+        "dishes": [
+            { "name": "Pa amb Tomàquet", "description": "Pan de payés untado con tomate, aceite de oliva y sal.", "price": 4.00 }
+        ]
+    },
+    {
+        "title": "Platos Principales",
+        "dishes": [
+            { "name": "Escudella i Carn d'Olla", "description": "Cocido tradicional catalán...", "price": 14.50 },
+            { "name": "Canelons a la Catalana", "description": "Canelones rellenos de carne...", "price": 11.00 },
+            { "name": "Suquet de Peix", "description": "Guiso marinero de pescado...", "price": 16.00 }
+        ]
+    },
+    {
+        "title": "Postres",
+        "dishes": [
+            { "name": "Crema Catalana", "description": "Postre de crema pastelera con azúcar caramelizado.", "price": 5.50 }
+        ]
+    }
+]

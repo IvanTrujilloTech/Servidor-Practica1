@@ -1,0 +1,82 @@
+[
+  {
+    "destino": "tokyo",
+    "pais": "japon",
+    "dias": 10,
+    "precio": 2500,
+    "descripcion": "experiencia unica en la vibrante capital japonesa",
+    "fecha_salida": "2024-03-15",
+    "fecha_regreso": "2024-03-25",
+    "actividades": [
+      "visita al templo sensoji",
+      "recorrido por shibuya",
+      "degustacion de sushi",
+      "excursion al monte fuji"
+    ],
+    "tipo": "cultural"
+  },
+  {
+    "destino": "paris",
+    "pais": "francia",
+    "dias": 7,
+    "precio": 1800,
+    "descripcion": "la ciudad del amor y la luz",
+    "fecha_salida": "2024-04-10",
+    "fecha_regreso": "2024-04-17",
+    "actividades": [
+      "subida a la torre eiffel",
+      "visita al museo del louvre",
+      "paseo por los campos eliseos",
+      "crucero por el sena"
+    ],
+    "tipo": "romantico"
+  },
+  {
+    "destino": "nueva york",
+    "pais": "estados unidos",
+    "dias": 5,
+    "precio": 2200,
+    "descripcion": "la gran manzana nunca duerme",
+    "fecha_salida": "2024-05-20",
+    "fecha_regreso": "2024-05-25",
+    "actividades": [
+      "visita a central park",
+      "subida al empire state",
+      "paseo por times square",
+      "visita a la estatua de la libertad"
+    ],
+    "tipo": "urbano"
+  },
+  {
+    "destino": "bali",
+    "pais": "indonesia",
+    "dias": 12,
+    "precio": 1900,
+    "descripcion": "paraiso tropical del sudeste asiatico",
+    "fecha_salida": "2024-06-01",
+    "fecha_regreso": "2024-06-13",
+    "actividades": [
+      "playas de arena blanca",
+      "templos antiguos",
+      "clases de yoga",
+      "snorkel en arrecifes"
+    ],
+    "tipo": "playa"
+  },
+  {
+    "destino": "machu picchu",
+    "pais": "peru",
+    "dias": 8,
+    "precio": 1600,
+    "descripcion": "maravilla del mundo antiguo",
+    "fecha_salida": "2024-07-15",
+    "fecha_regreso": "2024-07-23",
+    "actividades": [
+      "trekking por el camino inca",
+      "visita a las ruinas",
+      "conocimiento de la cultura quechua",
+      "observacion de aves exoticas"
+    ],
+    "tipo": "aventura"
+  }
+]

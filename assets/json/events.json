@@ -1,0 +1,17 @@
+[
+  {
+    "event_name": "Mobile World Congress 2025",
+    "inscription_price": 50,
+    "main_price": 150
+  },
+  {
+    "event_name": "Primavera Sound Festival",
+    "inscription_price": 75,
+    "main_price": 200.25
+  },
+  {
+    "event_name": "DURO Festival",
+    "inscription_price": 25,
+    "main_price": 300.50
+  }
+]
